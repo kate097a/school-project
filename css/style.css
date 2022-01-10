@@ -1,0 +1,193 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+body {
+    margin: 0;
+    position: sticky;
+}
+
+
+.header {
+    background-color: grey;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: 3vw;
+    font-family: Impact, fantasy;
+}
+
+.top-panel {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 5%;
+    padding: 2% 2% 2% 0;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+  } 
+
+.search {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.button {
+    border: none;
+    background-color: red;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1%;
+  }
+
+  .search-input {
+      border: none;
+      height: 3vw;
+      width: 20vw;
+  }
+
+  .navigation {
+      margin: auto 2% auto 30%;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;;
+      text-decoration: none;
+      list-style-type: none;
+      font-size: 2vw;
+      height: 10%;
+  }
+
+  .navigation-point:nth-child(1n+2) {
+    margin-left: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+
+  .navigation-point {
+      display: flex;
+      text-align: center;
+  }
+
+  .search-input:focus {
+      background-color: lightgrey;
+      border: none;
+      outline: none !important;
+  }
+
+  .button:focus {
+    background-color: rgb(211, 112, 112);
+    border: none;
+}
+
+.navigation-point:hover {
+    background-color: lightgrey;
+}
+
+.navigation-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: auto;
+}
+
+.main-content {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.main-title {
+    margin: 0 ;
+    padding: 10%;
+    font-size:3vw;
+}
+
+.title-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.choose-panel {
+    background-color:silver;
+    display: flex;
+    list-style-type: none;
+    padding: 5% 0;
+    font-size: 1.5em;
+    border-color:dimgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.choose-point-image {
+    width: 10vw;
+    height: 10vw;
+    border: none;  
+    margin-left: 3vw;
+}
+
+.choose-point {
+    display: block;
+
+}
+
+.choose-point-image:hover {
+    background-color:darkgrey;
+}
+
+.about-school {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 8% 10vw;
+    background-color: #e5e5e5;
+}
+
+.text-about-school {
+    margin-right: 2vw;
+    height: 180px;
+    font-size: 1.5vw;
+}
+
+.choose-text {
+    white-space: wrap;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.director-photo {
+    width: 17vw;
+    height: 18vw;
+}
+
+.contacts {
+    margin: 0 5%;
+
+}
+
+.adres-block-title {
+    text-transform: uppercase;
+}
